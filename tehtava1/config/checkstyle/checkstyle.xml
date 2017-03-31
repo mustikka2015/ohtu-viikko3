@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+2 <!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN" "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+3 <module name="Checker">
+4
+
+5     <module name="TreeWalker">
+6         <module name="JavadocMethod"/>
+7         <module name="JavadocType"/>
+8         <module name="JavadocVariable"/>
+9         <module name="JavadocStyle"/>
+10         <module name="ConstantName"/>
+11         <module name="LocalFinalVariableName"/>
+12         <module name="LocalVariableName"/>
+13         <module name="MemberName"/>
+14         <module name="MethodName"/>
+15         <module name="PackageName"/>
+16         <module name="ParameterName"/>
+17         <module name="StaticVariableName"/>
+18         <module name="TypeName"/>
+19         <module name="AvoidStarImport"/>
+20         <module name="IllegalImport"/>
+21         <module name="RedundantImport"/>
+22         <module name="UnusedImports"/>
+23         <module name="LineLength"/>
+24         <module name="MethodLength"/>
+25         <module name="ParameterNumber"/>
+26         <module name="EmptyForIteratorPad"/>
+27         <module name="GenericWhitespace"/>
+28         <module name="MethodParamPad"/>
+29         <module name="NoWhitespaceAfter"/>
+30         <module name="NoWhitespaceBefore"/>
+31         <module name="OperatorWrap"/>
+32         <module name="ParenPad"/>
+33         <module name="TypecastParenPad"/>
+34         <module name="WhitespaceAfter"/>
+35         <module name="WhitespaceAround"/>
+36         <module name="ModifierOrder"/>
+37         <module name="RedundantModifier"/>
+38         <module name="AvoidNestedBlocks"/>
+39         <module name="EmptyBlock"/>
+40         <module name="LeftCurly"/>
+41         <module name="NeedBraces"/>
+42         <module name="RightCurly"/>
+43         <module name="AvoidInlineConditionals"/>
+44         <module name="EmptyStatement"/>
+45         <module name="EqualsHashCode"/>
+46         <module name="HiddenField"/>
+47         <module name="IllegalInstantiation"/>
+48         <module name="InnerAssignment"/>
+49         <module name="MagicNumber"/>
+50         <module name="MissingSwitchDefault"/>
+51         <module name="SimplifyBooleanExpression"/>
+52         <module name="SimplifyBooleanReturn"/>
+53         <module name="DesignForExtension"/>
+54         <module name="FinalClass"/>
+55         <module name="HideUtilityClassConstructor"/>
+56         <module name="InterfaceIsType"/>
+57         <module name="VisibilityModifier"/>
+58         <module name="ArrayTypeStyle"/>
+59         <module name="FinalParameters"/>
+60         <module name="TodoComment"/>
+61         <module name="UpperEll"/>
+62
+
+63     </module>
+64
+
+65 </module>
